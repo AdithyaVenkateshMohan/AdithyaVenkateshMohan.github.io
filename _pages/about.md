@@ -10,10 +10,14 @@
 
 ### Machine Learning Engineer
 **DEKA Research and Development Corp**
+
 ***Medical AI Research Team***
+
 - Led the team, for Machine Learning Research on pushing the boundaries of various medical devices rich variety of data like time series, and images using various supervised deep-learning models like Transformers, LSTMs, CNNs, and as well as deep reinforcement learning models like PPO, DDPG, GAIL.
 - worked on developing a segmentation model to estimate kidney size for an organ transplantation validation system.
+
 ***AV Object Detection Team***
+
 - worked on developing Early Sensor Fusion deep learning models to fuse LIDAR, RADAR, and CAMERA data.
 - Implemented uncertainty quantification to multiple deep learning models for active learning pipeline development.
 - developed LIDAR re-rendering augmentation pipeline for augmenting LIDAR data with meshes for recreating edge cases and simulating harsh weather conditions.
@@ -21,7 +25,9 @@
 - worked on developing  3D Object detection and segmentation deep learning models like (Point Pillars, and Centre Point) with PyTorch/Python.
 - worked on developing 2D Object detection and segmentation models like Yolo v7 with Pytorch/Python
 - Developed LIDAR to Camera correspondence and calibration ROS package in C++.
+
 ***ML Synthetic Data and Simulation Team***
+
 - Led the developments in Synthetic Image data generation using unsupervised deep learning techniques (Variational Autoencoders, GANs) to facilitate the machine learning pipeline.
 - Developing realistic dynamic obstacle models with behavior modeling using deep-reinforcement learning.
 - Developed Non-linear Simulated target spoofing with noise profiling to facilitate obstacle detection pipeline.
