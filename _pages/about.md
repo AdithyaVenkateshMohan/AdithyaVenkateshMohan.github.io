@@ -1,50 +1,101 @@
----
-permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+# Adithya Venkatesh Mohan
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+- **Email:** mohanah@mail.uc.edu
+- **Phone:** 513-652-2408
+- **Address:** 1200 Elm Street, # 414, Manchester, NH 03101
+- **GitHub:** [AdithyaVenkateshMohan](https://github.com/AdithyaVenkateshMohan)
+- **LinkedIn:** [Adithya Mohan](https://www.linkedin.com/in/adithyamohan)
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Experience
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+### Machine Learning Simulation Software Engineer
+**DEKA Research and Development Corp**
+- Building realistic sensor models for LIDAR, RADAR using Mathematical models and integrating into the existing Simulator Base using Compute Shaders, Unity, C#, C++.
+- Working with deep learning models (Point Pillars) for efficient 3D Object Classification using point cloud data with PyTorch/Python.
+- Leading the developments in Synthetic Image data generation using unsupervised deep learning techniques (Variational Autoencoders, GANs) to facilitate the machine learning pipeline.
+- Developed LIDAR to Camera correspondence and calibration ROS package in C++.
+- Developing realistic dynamic obstacle models with behavior modeling using deep-reinforcement learning.
+- Developed Non-linear Simulated target spoofing with noise profiling to facilitate obstacle detection pipeline.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### Research Assistant
+**Cognition, Action and Perception Labs, University of Cincinnati**
+- Bat inspired robot navigation behavior generation using deep reinforcement learning with raw ultrasonic echo waveforms.
+- Simulated raw ultrasonic echo waveforms (audio) from spatial data (PCL / LIDAR) using DSP algorithms.
+- Developed ROS-Gazebo simulators for simulation with C++ and deep-learning models using TensorFlow, Python.
+- Increased data collection efficiency by creating a pipeline for data acquisition (echo ultrasonic audio and LIDAR) using DSP processor and Raspberry pi with GUI, visualization, and interfaced with AWS.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### Research Engineer (Volunteering)
+**Discovered Goal Sports Analytics, Start-up pre-accelerator UC Cincinnati**
+- Developed deep-learning models and computer vision algorithms for football player detection and tracking with pose detection.
+- Responsible for research and automation in data collection, was also part of market analysis.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+### Prototype Engineer Intern
+**BMW Technology Office of North America, LLC**
+- Developed a software framework (multithreaded) to interface the prototype sensors and CV with C# and Unity 3D for more featured Augmented reality designing.
+- Worked on Simulation framework in Unity 3D to generate synthetic image data for ML pipeline.
+- Developed automated camera calibration package for accurate AR using python.
+- Designed interactive UI and UX graphics development with Unity 3D engine.
+- Developed Sensor data visualization with GUI using Python, Unity 3D – ROS.
 
-**Markdown generator**
+### Assistant Systems Software Engineer
+**Tata Consultancy Services**
+- Experienced in full-stack web development.
+- Skills used: Java, HTML, CSS, JavaScript, Spring, SQL.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Skill Set
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **Programming Languages:** C, C++, Python, C#, Java, Embedded C, Verilog, Dart.
+- **Software Framework and Lib:** TensorFlow, OpenCV, PyTorch, ROS, Keras.
+- **Software Tools:** Unity 3D, Gazebo, Arduino, MATLAB, MPLABX, SolidWorks, Flutter, SQL.
+- **Hardware:** Arduino, Raspberry Pi, FPGA, PIC, Snapdragon 410C.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Projects
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### Training an Artificial Bat in Simulation, Behavior Cloning Using Deep RL (published in IEEE) Jan 2020
+- Achieved bat navigation behavioral generation using simulated raw ultrasonic echo waveform (audio) using 3D LIDAR data with DQN.
+- Deployed the trained robots in hardware using Raspberry pi and DC motors.
+- [Publication Link](https://ieeexplore.ieee.org/abstract/document/9308555)
+
+### AI Therapy Hack (Depression Diagnosis app) Feb 2020
+- Developed an app for mental health diagnosis which gets the text and video response from the user and gives a depression score.
+- Designed deep CNN models to detect facial emotions and Text and Speech sentimental analysis.
+
+### Football Player Tracker with Pose Detection Aug 2019
+- Automated the data collection process, players were recognized based on their position using deep-learning models, and pose of each player was estimated using open-pose and object tracking using Extended Kalman filter.
+
+### Autonomous Land Robot with 2d SLAM Mar 2018
+- Achieved accurate SLAM process with a minimalistic approach using PIC microcontroller and ultrasonic sensor mounted with a stepper motor.
+
+### Virtual Reality with Hand Gesture Recognition Jan 2016
+- Designed VR headset with gloves using snapdragon 410c and ATmega microcontrollers.
+
+### Self-Learning Robotic Arm Feb 2018
+- Minimized the inverse dynamics design complexity for robotic arms using computer vision and deep reinforcement learning (DDPG) in continuous action space with Embedded C and python implemented.
+
+### Transfer Learning Setting for DDPG via Domain Randomization in Simulation Feb 2020
+- Implemented transfer learning in the reinforcement learning setting with the DDPG algorithm by training the agent using dynamics domain randomization which reduced training time by 10 times for other dynamics.
+
+### Optimizing AV fleet resource allocation using Linear programming Mar 2018
+- Optimized the AV resource allocation and fleet management to produce 20% more revenue and 25% less time through linear programming in Java using Cplex solver libraries with New York city taxi data.
+
+## Achievements
+
+- Won Most innovative hack award for AI Therapy Hack in RevolutionUC Hackathon 2020.
+- Won IQE-Pitch 2019 conducted by 1819 Innovation hub at UC.
+- Developed highly appreciated Unity software framework in BMW which eased AR UI and UX design process and reduced human efforts by 70%.
+- Won runner up in Google’s Flutter Hackathon WWC 2018.
+
+## Education
+
+- **MS in Electrical Engineering, Robotics, and AI** (Aug 2017 – Dec 2020)
+  - University of Cincinnati, Cincinnati, OH
+  - GPA: 3.9
+  - Courses: Intelligent Systems, Robotics, LST, Decision Engg Math Modelling, Industrial Automation, Bioinspired Robotics, Embedded Systems, Robots controls, Advanced Micro system.
+
+- **Nanodegree in Deep-Reinforcement Learning** (Jan 2019 – Apr 2019)
+  - Udacity - School of Artificial Intelligence, Mountain View, CA
+  - Deep-Reinforcement Learning with Gaming, Robotics, and Finance.
+
+- **BE in Electronics and Communication** (Aug 2012 – June 2016)
+  - Anna University, Chennai, TN, India
+  - Courses: Embedded systems, Robotics, Computer Vision, DAQ Hardware, Data Structures, and Algorithm.
